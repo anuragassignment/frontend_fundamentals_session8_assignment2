@@ -1,0 +1,254 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#salaryIncrementResult p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 160px;
+}
+
+/*Login page sign-up page css*/
+
+#login-signUp,
+#login,
+#signup,
+#dashboard {
+    display: table;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+#login-signUp p {
+    font-size: 50px;
+}
+
+#login-signUp p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#login p a,
+#signup p a,
+#dashboard p a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#login-signUp button {
+    margin: 0 5px 0 0;
+}
+
+table {
+    border: 1px solid #fff;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table caption {
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table tfoot {
+    border: 1px solid #ffffff;
+}
+
+body {
+    padding-top: 108px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url("http://i.imgur.com/Rm2NpV2.jpg") no-repeat;
+    margin: 0;
+    background-size: cover;
+}
+
+body p {
+    font-size: 17px;
+}
+
+body>header {
+    margin-bottom: 40px;
+    padding: 0 8px 0 8px;
+    text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 0;
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body>header .container {
+    position: relative;
+}
+
+body>header h1 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    color: #35D8F9;
+}
+
+body>header h1 a {
+    text-decoration: none;
+    color: #035572;
+    text-transform: uppercase;
+    vertical-align: sub;
+}
+
+
+/*   Main Navigation styles  */
+
+nav {
+    list-style: none;
+    display: inline-block;
+}
+
+nav h2 {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    float: left;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a h4 {
+    padding-right: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #172679;
+    font-size: 15px;
+}
+
+
+/* Dropdown Navigation styles */
+
+a .arrow {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #172679;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    position: relative;
+    right: 8px;
+}
+
+a ul {
+    position: absolute;
+    display: none;
+    width: 135px;
+    top: 48px;
+}
+
+a ul li {
+    float: none;
+    background-color: #ffffff;
+    padding: 10px;
+    color: #172679;
+    font-size: 13px;
+    border-bottom: 1px solid #eaf8ff;
+}
+
+a ul li:hover {
+    background-color: #35D8F9;
+    color: white;
+}
+
+a ul li:last-child {
+    border: none;
+}
+
+li:hover ul {
+    display: block;
+    border: 1px solid #35D8F9;
+}
+
+#social {
+    display: inline-block;
+    padding-right: 0;
+    margin-right: 4px;
+}
+
+
+/* Main section Styles */
+
+main section h3 {
+    display: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 auto 40px auto;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+main article {
+    padding: 0 0 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
+main article p {
+    padding: 0 8px 0 8px;
+}
+
+
+/* figure section styles */
+
+figure {
+    margin: 0;
+}
+
+figure div {
+    margin: 0 auto;
+}
+
+figure figcaption {
+    clear: both;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+
+/*About us section styles */
+
+#aboutUs {
+    margin: 90px 0;
+}
+
+
+/* footer styles */
+
+footer,
+main {
+    color: #ffffff;
+}

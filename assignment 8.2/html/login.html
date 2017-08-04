@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ACADGILD</title>
+    <!--Link to StyleSheet-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <a href="#">Acadgild</a>
+            </h1>
+            <nav>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <h4>Home</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/about.html">
+                            <h4>About</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>Contact</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4 id="social">Social</h4>
+                            <div class="arrow"></div>
+                            <ul>
+                                <li>Twitter</li>
+                                <li>Facebook</li>
+                                <li>Instagram</li>
+                                <li>Snapchat</li>
+                                <li>Tumblr</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+                <!-- end of ul of main nav-->
+            </nav>
+            <!--end of nav-->
+        </div>
+        <!--end of container-->
+    </header>
+    <main>
+        <section>
+            <h3>login Page</h3>
+            <div id="login">
+                <p><a href="../html/index.html" title="link to home page">Myselfie Tech</a></p>
+                <form method="Post" id="login-form" onsubmit="return login()">
+                    <p>
+                        <input type="email" name="email" id="email" placeholder="email" required>
+                    </p>
+                    <p>
+                        <input type="password" name="password" id="password" placeholder="password" required>
+                    </p>
+                    <p>
+                        <button type="submit">Submit Query</button>
+                    </p>
+                    <p>
+                        <button onclick="window.location='../html/index.html'">Back</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <center><small>©Copyright 2017 programmers inc.</small></center>
+        </p>
+    </footer>
+    <!--Link to Javascript-->
+    <script src="../javascript/scripts1.js"></script>
+</body>
+
+</html>
